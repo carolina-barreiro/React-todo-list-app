@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.padding-top-heading {
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 0;
+}
+
+#title {
+  font-size: 50px;
+  color: #c9b0d4;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div2 {
+  grid-area: 2 / 6 / 3 / 7;
+}
+
+.div3 {
+  grid-area: 3 / 2 / 5 / 6;
+}
+
+#btnAdd {
+  background-color: #94b788;
+  border: none;
+  color: #fcfcfc;
+}
+
+#btnFilter {
+  background-color: #d0d0d0;
+  border: none;
+  color: #fcfcfc;
+}
+
+.gradient-custom {
+  background: linear-gradient(to right, rgba(166, 192, 254, 0.9), rgba(246, 128, 132, 0.9));
+
+}
+
+.list-group-item {
+  background-color: #f4f6f7;
+}
+
+#btnAdd {
+  background-color: #dda2b8;
+}
+
+.nav-link[aria-selected="false"] {
+  color: #e997a5;
+}
+
+.nav-link[aria-selected="false"]:hover {
+  color: #e997a5;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: #bfb9e6; /* Customize the background color when checked */
+  border-color: #bfb9e6; /* Customize the border color when checked */
+}
+
+
