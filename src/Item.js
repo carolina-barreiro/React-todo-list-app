@@ -1,5 +1,4 @@
 import './App.css';
-import './index.css';
 
 export default function Item(props) {
     const listItems = props.filteredList.map(item =>

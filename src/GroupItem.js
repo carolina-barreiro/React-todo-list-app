@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './index.css';
 import Item from './Item.js';
 
 function GroupItem(props) {
